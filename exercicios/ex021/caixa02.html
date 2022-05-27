@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(116, 111, 111, 0.473);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(228, 234, 240);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(197, 197, 223);
+            padding:3px;
+            box-shadow: 5px 5px 1px 1px black;
+        }
+        nav> a{
+            text-decoration: nome;
+            color: rgb(6, 39, 28);
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        main{
+            background-color: rgb(241, 210, 168);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 3px 4px 1px;
+        }
+        article{
+            background-color: rgb(241, 229, 213);
+        }
+        article > aside{
+            background-color: rgb(215, 179, 248);
+
+        }
+        footer{
+            background-color: black;
+            color: rgb(245, 214, 214);
+            text-align: center;
+            padding: 1px;
+            margin: 0%;
+        }
+        footer> p{
+            margin: 0%;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(60, 139, 139);
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu sites</h1>
+        <nav>
+            <a href="#">Línk</a>
+            <a href="#">Línk</a>
+            <a href="#">Línk</a>
+            <a href="#">Línk</a>
+            <a href="#">Línk</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        <p>Esportes, política e Tecnologia</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobri o Brasíl</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta atque ratione tenetur voluptates. Tempore, repudiandae totam eveniet atque doloribus quod similique vitae architecto doloremque ipsam fuga cum id quas veniam.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
